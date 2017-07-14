@@ -22,6 +22,9 @@
 // UI Logic
 $(document).ready(function() {
   $(".pingpong-form").submit(function(event) {
+    event.preventDefault();
+    $('ul').empty();
+
 
     var inputNumber = $("#userNumber").val();
     alert(inputNumber)
@@ -29,22 +32,25 @@ $(document).ready(function() {
     var currentNumber = 0;
     var countTo = parseInt(inputNumber);
     var countBy = 1;
+    var outputString = "";
     for (var currentNumber = countBy; currentNumber <= countTo; currentNumber += countBy){
       inputNumberArray.push(currentNumber);
     }
     alert(inputNumberArray);
-    // // for(var index = 0; index < inputNumberArray.length; index += 1){
-    // //   arrayNumber = inputNumberArray[index];
-    // //
-    // //   if (arrayNumber === 3){
-    // //     arrayNumber = "ping";
-    // //   // }  else if(arrayNumber === "5"){
-    // //   //   arrayNumber = "pong";
-    // //   } else (arrayNumber = arrayNumber)
-    // }
     alert(inputNumberArray.length);
     alert(inputNumberArray[2]);
-    event.preventDefault();
+    for(var index = 0; index < inputNumberArray.length; index += 1){
+      arrayNumber = inputNumberArray[index];
+
+      if (arrayNumber === 3){
+        arrayNumber = "ping";
+      } else {
+        arrayNumber = arrayNumber
+      }
+    outputString = outputString + arrayNumber;
+    }
+    alert(outputString);
+
 
 
   });
