@@ -10,7 +10,8 @@
   text-align: left;
 }
 img.ping-pong {
-  float:right;
+  float:left;
+  width: 300px;
 }
 #formbox {
   border: 10px;
@@ -24,4 +25,9 @@ img.ping-pong {
   border: 2px black;
   background-color: #a3c6ff;
   padding: 20px;
+}
+.well {
+  margin: 5px;
+  border: 2px #94b7ef;
+  padding: 4px;
 }
