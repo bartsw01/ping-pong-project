@@ -8,6 +8,9 @@ $(document).ready(function() {
     event.preventDefault();
     $('ul').empty();
 
+    // outputArray.forEach(function(outPutListItem){
+    //   $("ul").append("<li>" + outPutListItem + "<li>");
+    // }
 
     var inputNumber = $("#userNumber").val();
     alert(inputNumber)
@@ -16,6 +19,7 @@ $(document).ready(function() {
     var countTo = parseInt(inputNumber);
     var countBy = 1;
     var outputString = "";
+    var outputArray = [];
     for (var currentNumber = countBy; currentNumber <= countTo; currentNumber += countBy){
       inputNumberArray.push(currentNumber);
     }
@@ -26,16 +30,25 @@ $(document).ready(function() {
       arrayNumber = inputNumberArray[index];
       if (arrayNumber%5 === 0 && arrayNumber%3 === 0){
         arrayNumber = "ping-pong"
-      // } else if (arrayNumber%5 === 0){
-      //   arrayNumber = "pong";
-      // } else if (arrayNumber%3 === 0){
-      //   arrayNumber = "ping";
+      } else if (arrayNumber%5 === 0){
+        arrayNumber = "pong";
+      } else if (arrayNumber%3 === 0){
+        arrayNumber = "ping";
       } else {
         arrayNumber = arrayNumber;
       }
-    outputString = outputString + arrayNumber;
+      $("ul").append("<li>" + arrayNumber + "<li>");
+      // outputString = outputString + arrayNumber;
+      // return outputArray;
+
+
     }
-    alert(outputString);
+    // alert(outputString);
+    // alert(outputArray);
+
+
+
+    // alert(outputArray);
 
 
 
