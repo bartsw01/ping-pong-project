@@ -1,22 +1,5 @@
 //Business Logic
-// var inputNumber;
-// alert(inputNumber);
-//
-// var inputNumberArray = [];
-//
-// // var numberator = inputNumberArray.push(inputNumber);
-//
-//
-// // var currentNumber = 0;
-// // var countTo = inputNumber;
-// // var countBy = 1;
-// // var numberator = function(inputNumber){
-// //
-// // for (var currentNumber = countBy; currentNumber <= countTo; currentNumber += countBy){
-// //   inputNumberArray.push(currentNumber);
-// // }
-//
-// alert(inputNumberArray);
+
 
 
 // UI Logic
@@ -41,11 +24,14 @@ $(document).ready(function() {
     alert(inputNumberArray[2]);
     for(var index = 0; index < inputNumberArray.length; index += 1){
       arrayNumber = inputNumberArray[index];
-
-      if (arrayNumber === 3){
+      if (arrayNumber%5 === 0 && arrayNumber%3 === 0){
+        arrayNumber = "ping-pong"
+      } else if (arrayNumber%5 === 0){
+        arrayNumber = "pong";
+      } else if (arrayNumber%3 === 0){
         arrayNumber = "ping";
       } else {
-        arrayNumber = arrayNumber
+        arrayNumber = arrayNumber;
       }
     outputString = outputString + arrayNumber;
     }
