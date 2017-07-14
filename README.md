@@ -1,39 +1,41 @@
-# _Crypto Square_
+# _Ping Pong Project Webpage for Bart Webber_
 
-#### _{Convert a sentence to crypto square-form}, {July 13, 2017}_
+#### _{Webpage converts number to display the words Ping Pong}, {July 14, 2017}_
 
-#### By _**{Maria Thomas & Bart Webber & Kheifer Fuller}**_
+#### By _**{Bart Webber}**_
 
 ## Description
 
-_{Received a user input and convert it to roman numeral format}_
+_{Receive a user input number and convert it to a list of numbers counting up from 1 to the input number.  Replace numbers divisible by 3 with "ping", Replace numbers divisible by 5 with "pong", Replace numbers divisible by 15 with "ping-pong",}_
 
 ## Development Specifications
 
 | Behavior      | Input | Output |
 | ------------- | ------------- | ------------- |
-| The program will remove spaces, punctuations from the user input| example,%  | example  |
-| The program will lowercase the user input string | EXAMPLE  | example |
-| The program will separate each letter of the string into an array.   | example  | e,x,a,m,p,l,e  |         
-| The program will count the number of characters in the array. | e,x,a,m,p,l,e  | 7 characters  |
-| The program will create a grid of X columns and rows based on the nearest higher square root of the total number of characters   | 64 characters  | 8 col & 8 row  |
-
-| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  | 400, 900 | CD, CM |
+| It will count up to the input number starting at 1. | 5  | 1,2,3,4,5  |
+| It will replace numbers in the list divisible by 3 with the word "ping". | 3  | "ping" |
+| It will replace numbers in the list divisible by 5 with the word "pong". | 5  | "pong"  |         
+| It will replace numbers in the list divisible by 15 with the words "ping-pong". | 15 | "ping-pong"  |
+| It will display the list of numbers on webpage with the replacement words.   | 64 characters  | 8 col & 8 row  |
+| The user will be able to enter a new input number and see new results. | 3 | 1,2,3 |
 
 
 ## Setup/Installation Requirements
 
-* _Clone this repository_
-* _For a mac, run the following command in your terminal:
-git clone (URL.git)_
-* _Open the folder and click the html file in your preferred web browser._
+* _https://bartsw01.github.io/portfolio-update/_
+
+_Go to my GitHub site above to view the gh-pages link_
+
+* _https://github.com/bartsw01/portfolio-update.git_
+
+_Go to my GitHub site above to view the repository site_
 
 ## Support and contact details
 
-_If you have any questions or suggestions. Please free to contact us._
-_Maria Thomas. Email: malethr@gmail.com_
+_If you have any questions or suggestions. Please free to contact me._
+
 _Bart Webber. Email: bartwebber@gmail.com_
-_Kheifer Fuller. Email: kheifer@gmail.com_
+
 
 ## Technologies Used
 
@@ -47,4 +49,4 @@ _GitHub_
 
 This software is licensed under MIT license.
 
-Copyright (c) 2017 **_Maria Thomas, Bart Webber & Kheifer Fuller_**
+Copyright (c) 2017 **_Bart Webber_**
