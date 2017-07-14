@@ -16,7 +16,6 @@ _{Receive a user input number and convert it to a list of numbers counting up fr
 | It will replace numbers in the list divisible by 3 with the word "ping". | 3  | "ping" |
 | It will replace numbers in the list divisible by 5 with the word "pong". | 5  | "pong"  |         
 | It will replace numbers in the list divisible by 15 with the words "ping-pong". | 15 | "ping-pong"  |
-| It will display the list of numbers on webpage with the replacement words.   | 64 characters  | 8 col & 8 row  |
 | The user will be able to enter a new input number and see new results. | 3 | 1,2,3 |
 
 
