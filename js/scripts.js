@@ -26,10 +26,10 @@ $(document).ready(function() {
       arrayNumber = inputNumberArray[index];
       if (arrayNumber%5 === 0 && arrayNumber%3 === 0){
         arrayNumber = "ping-pong"
-      } else if (arrayNumber%5 === 0){
-        arrayNumber = "pong";
-      } else if (arrayNumber%3 === 0){
-        arrayNumber = "ping";
+      // } else if (arrayNumber%5 === 0){
+      //   arrayNumber = "pong";
+      // } else if (arrayNumber%3 === 0){
+      //   arrayNumber = "ping";
       } else {
         arrayNumber = arrayNumber;
       }
