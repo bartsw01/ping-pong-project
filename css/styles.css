@@ -15,6 +15,7 @@ body {
 img.ping-pong {
   float:left;
   width: 300px;
+  border: 4px black;
 }
 #formbox {
   border: 10px;
