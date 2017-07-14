@@ -23,10 +23,6 @@ for(var index = 0; index < inputNumberArray.length; index += 1){
   outputArray.push(arrayNumber);
   $("ul").append("<li>" + arrayNumber + "<li>");
   }
-alert(inputNumber);
-alert(inputNumberArray);
-alert(inputNumberArray.length);
-alert(outputArray);
 };
 
 
