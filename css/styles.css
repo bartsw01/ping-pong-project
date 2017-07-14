@@ -35,3 +35,6 @@ img.ping-pong {
   border: 2px #94b7ef;
   padding: 4px;
 }
+#result {
+  display: none;
+}
