@@ -22,11 +22,11 @@ _{Receive a user input number and convert it to a list of numbers counting up fr
 
 ## Setup/Installation Requirements
 
-* _https://bartsw01.github.io/portfolio-update/_
+* _https://bartsw01.github.io/ping-pong-project/_
 
 _Go to my GitHub site above to view the gh-pages link_
 
-* _https://github.com/bartsw01/portfolio-update.git_
+* _https://github.com/bartsw01/ping-pong-project.git_
 
 _Go to my GitHub site above to view the repository site_
 
@@ -43,6 +43,7 @@ _HTML_
 _CSS_
 _Bootstrap_
 _JavaScripts_
+_jQuery_
 _GitHub_
 
 ### License
