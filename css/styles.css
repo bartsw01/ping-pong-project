@@ -1,0 +1,27 @@
+.jumbotron {
+  margin: 5px;
+  border: 2px #94b7ef;
+  padding: 4px;
+}
+.jumbotron h1{
+  text-align: left;
+}
+.jumbotron p{
+  text-align: left;
+}
+img.ping-pong {
+  float:right;
+}
+#formbox {
+  border: 10px;
+  border-color: black;
+}
+img.ping-pong {
+  float:right;
+}
+.pingpong-form{
+  margin: 5px;
+  border: 2px black;
+  background-color: #a3c6ff;
+  padding: 20px;
+}
