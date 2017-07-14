@@ -33,8 +33,19 @@ $(document).ready(function() {
       inputNumberArray.push(currentNumber);
     }
     alert(inputNumberArray);
+    // // for(var index = 0; index < inputNumberArray.length; index += 1){
+    // //   arrayNumber = inputNumberArray[index];
+    // //
+    // //   if (arrayNumber === 3){
+    // //     arrayNumber = "ping";
+    // //   // }  else if(arrayNumber === "5"){
+    // //   //   arrayNumber = "pong";
+    // //   } else (arrayNumber = arrayNumber)
+    // }
+    alert(inputNumberArray.length);
+    alert(inputNumberArray[2]);
     event.preventDefault();
-    
+
 
   });
 });
