@@ -21,7 +21,7 @@ for(var index = 0; index < inputNumberArray.length; index += 1){
     arrayNumber = arrayNumber;
   }
   outputArray.push(arrayNumber);
-  $("ul").append("<li>" + arrayNumber + "<li>");
+  $("ul").append("<li>" + arrayNumber + "</li>");
   }
 };
 
