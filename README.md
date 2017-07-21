@@ -12,11 +12,11 @@ _{Receive a user input number and convert it to a list of numbers counting up fr
 
 | Behavior      | Input | Output |
 | ------------- | ------------- | ------------- |
-| It will count up to the input number starting at 1. | 5  | 1,2,3,4,5  |
-| It will replace numbers in the list divisible by 3 with the word "ping". | 3  | "ping" |
-| It will replace numbers in the list divisible by 5 with the word "pong". | 5  | "pong"  |         
-| It will replace numbers in the list divisible by 15 with the words "ping-pong". | 15 | "ping-pong"  |
-| The user will be able to enter a new input number and see new results. | 3 | 1,2,3 |
+| It will count up to the input number starting at 1. | 2  | 1,2  |
+| It will replace numbers in the list divisible by 3 with the word "ping". | 3  | 1,2,"ping" |
+| It will replace numbers in the list divisible by 5 with the word "pong". | 5  | 1,2,3,4,"pong"  |         
+| It will replace numbers in the list divisible by 15 with the words "ping-pong". | 15 | 1,2,3,4,5,6,7,8,9,10,11,12,13,14,"ping-pong"  |
+
 
 
 ## Setup/Installation Requirements
